@@ -136,7 +136,7 @@ export default function Home() {
           id: 16,
           name: "self-help Book",
           price: "-19% $16.14",
-          image: "/self-help book.jpg",
+          image: "/self-help Book.jpg",
           link: "https://amzn.to/3NXKMO5",
         },
         {
@@ -169,7 +169,7 @@ export default function Home() {
             type="text"
             placeholder="Search products..."
             className="border rounded-md px-3 py-1 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            value={search}
+            value={search}np
             onChange={(e) => setSearch(e.target.value)}
           />
         </div>
